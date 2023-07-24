@@ -6,3 +6,7 @@ from django.views.generic import TemplateView
 class HomePageView(TemplateView):
     def get(self, request, **kwargs):
         return render(request, 'index.html', context=None)
+
+class PerformanceView(TemplateView):
+    def get(self, request, **kwargs):
+        return render(request, 'performance.html', context=None)

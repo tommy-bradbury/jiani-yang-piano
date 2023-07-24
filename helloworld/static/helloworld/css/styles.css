@@ -26,6 +26,11 @@ a {
   color: white;
   text-decoration: none;
 }
+.page-title {
+  position: relative;
+  left: 5vw;
+  top: 5vh;
+}
 .wrapper {
   min-height: 100%;
   height: auto !important;
