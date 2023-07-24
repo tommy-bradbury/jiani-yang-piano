@@ -5,5 +5,5 @@ from helloworld import views
 
 urlpatterns = [
     url(r'', views.HomePageView.as_view()),
-    url(r'performance', views.HomePageView.as_view()),
+    url(r'performance', views.PerformanceView.as_view()),
 ]
