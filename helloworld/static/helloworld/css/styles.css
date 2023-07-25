@@ -118,13 +118,13 @@ footer .footer-contents {
   stroke-dasharray: 4000;
   stroke-dashoffset: 4000;
   animation: dash 5s linear forwards;
-  transition-delay: 5000ms;
+  animation-delay: 1300ms;
 }
 .path-delay2 {
   stroke-dasharray: 4000;
   stroke-dashoffset: 4000;
   animation: dash 5s linear forwards;
-  transition-delay: 1000ms;
+  animation-delay: 1500ms;
 }
 @keyframes dash {
   to {
